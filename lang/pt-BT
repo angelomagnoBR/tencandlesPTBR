@@ -1,0 +1,102 @@
+{
+  "TENCANDLES": {
+    "Sheet": {
+      "ActorSheetLabel": "Ficha de Personagem de Ten Candles"
+    },
+    "Setting": {
+      "LitCandlesName": "Velas Acesas",
+      "LitCandlesHint": "O número de velas atualmente acesas, até o máximo de 10.",
+      "DicePenaltyName": "Penalidade de Dados",
+      "DicePenaltyHint": "O número de dados perdidos ao obter resultados iguais a 1."
+    },
+    "Roll": {
+      "NoCandles": "Não há mais luz para enxergar. Nenhuma rolagem pode ser realizada. O jogo acabou.",
+      "NoDicePenalty": "Nenhum dado restante devido à escuridão acumulada. Uma vela deve ser apagada para restaurar a reserva de dados.",
+      "Flavor": "faz uma rolagem...",
+      "RollingDice1": "Rolando",
+      "RollingDice2": " dados...",
+      "Success": "Sucesso!",
+      "Failure": "Falha!",
+      "OnesMessage": "Resultados iguais a 1! A escuridão fica mais forte...",
+      "PenaltyMessage": "Reserva reduzida em $1 dado. A próxima rolagem utilizará $2 dados.",
+      "NoDiceReset": "Nenhum dado restante! Uma vela deve ser apagada para restaurar a reserva de dados.",
+      "NoPreviousRoll": "Não existe uma rolagem anterior para repetir.",
+      "Repeatroll": "Última rolagem repetida",
+      "PenaltyText": "Dados excluídos",
+      "CandlesText": "Velas"
+    },
+    "ActorSheet": {
+      "CharNamePlaceholder": "Nome do Personagem",
+      "RollButton": "Fazer uma Rolagem",
+      "TabMain": "Principal",
+      "TabGear": "Equipamento",
+      "Items": "Itens",
+      "VirtuesLabel": "Virtudes",
+      "VirtuesPlaceholder": "Uma virtude...",
+      "VicesLabel": "Vícios",
+      "VicesPlaceholder": "Um vício...",
+      "BrinksLabel": "Limites",
+      "BrinksPlaceholder": "Um limite...",
+      "TruthsLabel": "Verdades",
+      "TruthsPlaceholder": "Quais verdades o personagem estabeleceu...",
+      "NoGear": "Nenhum equipamento. Arraste itens de equipamento do diretório de Itens para adicioná-los.",
+      "CreateGear": "Criar Equipamento",
+      "NewGearName": "Novo Equipamento",
+      "RepeatLastRoll": "Repetir Última Rolagem",
+      "BrinkRemoved": "Um Limite foi consumido após a falha na repetição da rolagem.",
+      "BrinkRemoveFailed": "Não foi possível remover o Limite automaticamente. O Narrador foi notificado.",
+      "MomentsLabel": "Momentos",
+      "MomentsPlaceholder": "Um momento...",
+      "HopeLabel": "Esperança",
+      "MomentBlocksHope": "Não é possível ativar Esperança enquanto existir um Momento.",
+      "RepeatNotAllowed": "Não é possível repetir a última rolagem: esta ação só é permitida quando o personagem não possui Virtudes nem Vícios."
+    },
+    "Chat": {
+      "ReRolled": "Rolagem repetida"
+    },
+    "Items": {
+      "Virtue": "Virtude",
+      "Vice": "Vício",
+      "Brink": "Limite",
+      "Moment": "Momento",
+      "Gear": "Equipamento",
+      "Name": "Nome",
+      "Type": "Tipo",
+      "Description": "Descrição",
+      "DescriptionPlaceholder": "Descreva este item...",
+      "Quantity": "Quantidade",
+      "Weight": "Peso",
+      "Total": "Total",
+      "DeleteConfirmTitle": "Excluir Item",
+      "DeleteConfirmMessage": "Tem certeza de que deseja excluir {name}?",
+      "InvalidType": "Este tipo de item não é válido para personagens de Ten Candles.",
+      "AddedToList": "{itemName} foi adicionado à lista de {listType}.",
+      "CreateFailed": "Não foi possível criar o item."
+    },
+    "Warnings": {
+      "SingleItemExists": "Já existe um item do tipo {itemType} para este personagem."
+    },
+    "GM": {
+      "TrackerTitle": "Controle de Velas",
+      "NarratorAlias": "O Narrador",
+      "LitCandles": "Velas Acesas",
+      "CandleTitle": "Vela ",
+      "ExtinguishButton": "Apagar uma Vela",
+      "CandlesRemain": " velas restantes.",
+      "DicePenaltyDisplay": "Penalidade de dados:",
+      "AvailableDice": " dados disponíveis para rolagens",
+      "LightGone": "A luz se foi.",
+      "ExtinguishMessageBase": "Uma vela foi apagada. Restam {{count}}. A escuridão aumenta.",
+      "ExtinguishMessageReset": "A reserva foi restaurada para {{count}} dados.",
+      "ExtinguishMessageZero": "Não resta nenhuma luz. A escuridão consumiu tudo.",
+      "LightMessage": "As velas foram acesas. Agora restam {{count}}.",
+      "CandleOut1": "Uma vela se apagou. Ainda restam ",
+      "CandleOut2": "A escuridão aumenta.",
+      "CandleOut3": "A terceira vela se apagou.",
+      "Mreserva1": "A reserva de dados foi restaurada para",
+      "Mreserva2": "Não resta nenhuma luz. A escuridão consome tudo.",
+      "Mvelaencendida1": "Uma vela foi acesa. Agora existem ",
+      "Mvelaencendida2": " velas."
+    }
+  }
+}
