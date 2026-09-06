@@ -4,8 +4,8 @@
   "description": "An Unofficial system for the Ten Candles tragic horror storytelling game.",
   "version": "0.1.5",
   "compatibility": {
-    "minimum": "14",
-    "verified": "14"
+    "minimum": "13",
+    "verified": "13"
   },
   "documentTypes": {
     "Actor": {
